@@ -1,0 +1,5 @@
+22:22:27.289 [http-nio-8080-exec-11] ERROR com.bsuir.by.nastassia.yankova.nfilm.services.FilmService - Duplicate entry 'Типо есть-Абалаболкин-2020' for key 'film.UNQ_title_director_year'
+22:22:27.295 [http-nio-8080-exec-11] ERROR com.bsuir.by.nastassia.yankova.nfilm.commands.implementation.AddFilmCommand - Duplicate entry 'Типо есть-Абалаболкин-2020' for key 'film.UNQ_title_director_year'
+22:22:27.296 [http-nio-8080-exec-11] ERROR com.bsuir.by.nastassia.yankova.nfilm.controller.Controller - Error adding movie
+22:25:09.083 [http-nio-8080-exec-11] ERROR com.bsuir.by.nastassia.yankova.nfilm.services.AuthorizationService - null
+22:25:09.083 [http-nio-8080-exec-11] ERROR com.bsuir.by.nastassia.yankova.nfilm.commands.implementation.AuthorizationCommand - null

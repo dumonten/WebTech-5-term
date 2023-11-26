@@ -1,0 +1,11 @@
+com.bsuir.by.nastassia.yankova.nfilm.commands
+com.bsuir.by.nastassia.yankova.nfilm.commands.implementation
+com.bsuir.by.nastassia.yankova.nfilm.connectionpool
+com.bsuir.by.nastassia.yankova.nfilm.controller
+com.bsuir.by.nastassia.yankova.nfilm.dao
+com.bsuir.by.nastassia.yankova.nfilm.dao.implementation
+com.bsuir.by.nastassia.yankova.nfilm.exceptions
+com.bsuir.by.nastassia.yankova.nfilm.filter
+com.bsuir.by.nastassia.yankova.nfilm.listener
+com.bsuir.by.nastassia.yankova.nfilm.services
+com.bsuir.by.nastassia.yankova.nfilm.units

@@ -1,24 +1,33 @@
 package by.bsuir.Task_1;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.jar.Manifest;
 
-public class Main {
 
+interface A {
+    void x();
+}
+
+class B implements A {
+    public void x() {}
+    public void y() {}
+}
+
+class C extends B {
+    public void x() {}
+}
+
+public class Main  {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Please, enter x and y with a space between: ");
-
-        double x = 0.0, y = 0.0;
-        if (scanner.hasNextDouble())
-            x = scanner.nextDouble();
-        else {
-            System.out.println("Your data is incorrect!");
-            System.exit(1);
-        }
-        if (scanner.hasNextDouble())
-            y = scanner.nextDouble();
-
-        Expression expression = new Expression();
-        System.out.println("Result of the expression equals: " + expression.calculate(x, y));
+        Stack<Integer> s1 = new Stack<>();
+        Stack<Integer> s2 = new Stack<>();
+        action(s1, s2);
+        System.out.print(s1 + " " + s2);
+    }
+    public static void action(Stack<Integer> x1, Stack<Integer> x2){
+        x1.push(Integer.parseInt("10"));
+        x2 = x1;
     }
 }
+
+
